@@ -51,19 +51,19 @@ console.log(index(array, 1));
 //
 // console.log(greet2);
 
-
-const randomNumToSix = () => Math.floor(Math.random() * 6 + 1);
-
-const dupa = () => console.log('Dupa');
-
-// console.log(randomNumToSix());
-const repeat = number => {
-    for (let i = number; i > 0; i--) {
-        dupa();
-    }
-}
-
-repeat(10);
+//
+// const randomNumToSix = () => Math.floor(Math.random() * 6 + 1);
+//
+// const dupa = () => console.log('Dupa');
+//
+// // console.log(randomNumToSix());
+// const repeat = number => {
+//     for (let i = number; i > 0; i--) {
+//         dupa();
+//     }
+// }
+//
+// repeat(10);
 
 // const repeat = (arrowFunctionRepeat, number) => {
 //     for (let i = number; i < 0; i--) {
@@ -72,3 +72,13 @@ repeat(10);
 // }
 
 
+// const func3n = number => {
+//     for
+// }
+
+document.querySelector('div').setAttribute('id', 'first-div');
+
+document.querySelectorAll('div').forEach(el => console.log(el.dataset));
+
+console.log(document.querySelector('a').getAttribute('href'));
+console.log(document.querySelector('a').href);

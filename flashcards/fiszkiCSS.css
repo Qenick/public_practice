@@ -1,0 +1,18 @@
+na element h1 ustaw całkowitą przezroczystość
+
+h1 {
+  opacity: 0;
+}
+
+
+napisz selektor css dla tagu div mającego atrybut data-time 16
+
+div[data-time='16']
+
+
+
+komentarze w css
+
+/* */
+
+/*DOTĄD ZROBIONO FISZKI*/
