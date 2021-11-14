@@ -1,4 +1,55 @@
+body {
+  hyphens: auto;
+}
 [data-time='16'] {
   color: red;
   font-size: 25px;
+}
+
+h1 {
+  color: hsla(240, 50%, 50%, 0.1);
+}
+
+a:focus {
+  background: red;
+}
+
+.linki a:first-child {
+  color: aqua;
+}
+
+@media (min-width: 450px) {
+  [data-time='16'] {
+    color: aqua;
+  }
+}
+
+p {
+  text-shadow: 2px 2px 5px red;
+}
+
+div {
+  max-width: 900px;
+  width: 80%;
+  padding: 20px;
+  margin: 20px auto;
+  hyphens: auto;
+  border: solid 2px gray;
+  box-shadow: 10px 10px 5px 5px rgba(200, 200, 200);
+  box-shadow: 0 0 7px 4px red;
+  /*background: url("https://placekitten.com/300/200") no-repeat top / cover lightgreen;*/
+  /*background-blend-mode: multiply;*/
+  background: linear-gradient(to right, lightblue 10%, blue );
+}
+
+/*ul li:nth-child(2n+1) {*/
+/*  background: lightgreen;*/
+/*}*/
+
+.red-background {
+  background: red;
+}
+
+.white-background {
+  background: white;
 }

@@ -82,3 +82,39 @@ document.querySelectorAll('div').forEach(el => console.log(el.dataset));
 
 console.log(document.querySelector('a').getAttribute('href'));
 console.log(document.querySelector('a').href);
+
+const lis = document.querySelectorAll('li');
+
+// lis.forEach( el => lis.indexOf(el) % 2 === 0 ? console.log('parzysta')  : console.log('nieparzysta'));
+// lis.forEach( el =>  console.log(lis.indexOf(el)));
+
+const ahrefs = document.querySelectorAll('a')
+ahrefs.forEach(el => el.addEventListener('click', event => event.preventDefault()));
+
+for (let i = 0; i < ahrefs.length; i++) {
+    ahrefs[i].addEventListener('click', function (el) {
+        console.log(`Target: ${el.target}`);
+        console.log(`Current target: ${el.currentTarget}`);
+        console.log(`This: ${this}`);
+        el.currentTarget.classList.toggle('red-background');
+        el.currentTarget.event.stopImmediatePropagation();
+
+        // console.log(`This.el: ${this}`);
+    })
+
+}
+
+const hrefContainers = document.querySelectorAll('.href-container');
+
+hrefContainers.forEach( el => el.addEventListener('click', function (el) {
+    console.log(`Target: ${el.target}`);
+    console.log(`Current target: ${el.currentTarget}`);
+    console.log(`This: ${this}`);
+    console.log(el.currentTarget.innerText);
+    el.currentTarget.classList.toggle('white-background');
+    el.currentTarget.event.stopImmediatePropagation();
+
+
+    // el.style.backgroundColor = 'black';
+    // console.log(`This.el: ${this}`);
+}))

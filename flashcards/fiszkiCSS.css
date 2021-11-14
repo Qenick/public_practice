@@ -1,3 +1,124 @@
+/*ustaw dla diva tło gradient linearny zmieniający kolor z jasnoniebieskiego na niebieski w prawo jasnoniebieski na 10% szerokości zaczyna się mieszać*/
+
+div {
+  background: linear-gradient(to right, lightblue 10%, blue );
+}
+
+/*reguła css dla diva sprawiająca że obraz z tła przykryje całe tło diva*/
+
+div {
+  background-size: cover;
+}
+
+/* dla diva ustaw mieszanie się zdjęcia i koloru nastawionego wczesniej w background*/
+
+div {
+  background-blend-mode: multiply;
+}
+
+
+/* shorthand do tła diva, adres obrazka https://placekitten.com/300/200, nie powtarza sie, wyśrodkowany w poziomie i góra w pionie, obrazek pokrywa tło, kolor jasnozielony jak obrazek nie załaduje sie */
+
+div {
+  background: url("https://placekitten.com/300/200") no-repeat top / cover lightgreen;
+}
+
+
+
+/*dodaj do div w css cień przesunięty w lewo o 10 px i w dół o 20px rozmyciu 10px czerwony/*/
+
+div {
+  box-shadow: -10px 20px 10px red;
+}
+
+/*dodaj czerwony cień textu p z przesunięciem 3px 3px rozmyciem 5px i kolore czerwonym*/
+
+p {
+  text-shadow: 3px 3px 5px red;
+}
+
+spraw aby w divie długie słowa nie były całe przerzucane do kolejnej linii tylko były dzielone myślnikiem na końcu linii
+
+div {
+  hyphens: auto;
+}
+
+
+
+zaimportuj czcionkę Abolition Regular z folderu fonts znajdującego się w rodzicu  z pliku abolition-regular-webfont.woff
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.woff') format('woff');
+}
+
+
+
+
+
+/*DOTĄD ZROBIONO FISZKI*/
+
+
+media query na ekran o szerokości min 320px i maksymalnej 768
+
+@media  screen and (min-width: 320px) and (max-width: 768px) {}
+
+
+
+
+media query na szerokości min 450px color p na czerwony
+
+@media (min-width: 450px) {
+  p {
+    color: red;
+  }
+}
+
+
+ustawiając padding % jest on relatywny w stosunku do szerokości rodzica
+
+TAK
+
+
+po kliknięciu linku lub wybraniu go za pomocą klawiatury zmień kolor czcionki na czerwony
+
+a:focus {
+  color: red;
+}
+
+
+selector css dla pierwszego li w ul
+
+ul li:first-child
+
+
+
+
+
+z linku usuń standardowe podkreślenie
+a {
+  text-decoration: none;
+}
+
+
+pseudoklasa dla linku nieodwiedzonego
+a:visited
+
+
+pseudoklasa dla linku nieodwiedzonego
+
+a:link
+
+
+dla h1 ustaw kolor czcionki na hue 240 nasycenie 50 i jasność 50 i przezroczystość na 90%
+
+h1 {
+  color: hsla(240, 50%, 50%, 0.1);
+}
+
+
+
+
 na element h1 ustaw całkowitą przezroczystość
 
 h1 {
@@ -5,7 +126,7 @@ h1 {
 }
 
 
-napisz selektor css dla tagu div mającego atrybut data-time 16
+  napisz selektor css dla tagu div mającego atrybut data-time 16
 
 div[data-time='16']
 
@@ -15,4 +136,3 @@ komentarze w css
 
 /* */
 
-/*DOTĄD ZROBIONO FISZKI*/
