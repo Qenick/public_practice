@@ -1,3 +1,8 @@
+/*DOTĄD ZROBIONO FISZKI*/
+
+
+
+
 /*ustaw dla diva tło gradient linearny zmieniający kolor z jasnoniebieskiego na niebieski w prawo jasnoniebieski na 10% szerokości zaczyna się mieszać*/
 
 div {
@@ -33,9 +38,9 @@ div {
 
 /*dodaj czerwony cień textu p z przesunięciem 3px 3px rozmyciem 5px i kolore czerwonym*/
 
-p {
-  text-shadow: 3px 3px 5px red;
-}
+  p {
+    text-shadow: 3px 3px 5px red;
+  }
 
 spraw aby w divie długie słowa nie były całe przerzucane do kolejnej linii tylko były dzielone myślnikiem na końcu linii
 
@@ -56,7 +61,7 @@ zaimportuj czcionkę Abolition Regular z folderu fonts znajdującego się w rodz
 
 
 
-/*DOTĄD ZROBIONO FISZKI*/
+
 
 
 media query na ekran o szerokości min 320px i maksymalnej 768
