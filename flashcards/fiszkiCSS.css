@@ -1,3 +1,19 @@
+/* Ustaw w div przerwę między literami na 1px */
+div {
+  letter-spacing: 1px;
+}
+
+
+/* ustaw w div przerwę między wyrazami na 0.2em */
+
+div {
+  word-spacing: 0.2em;
+}
+
+/* w css ustaw tekst na kursywę */
+
+font-style: italic;
+
 /*DOTĄD ZROBIONO FISZKI*/
 
 
