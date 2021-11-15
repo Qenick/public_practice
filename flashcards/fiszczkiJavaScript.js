@@ -1,4 +1,9 @@
+//wyświetl proste okno z pytaniem Jak masz na imię?, a odpowiedz przechowaj w zmiennej name
+const name = prompt('Jak masz na imię?');
 
+
+//zamień treść całego dom w js na dupa;
+document.write('dupa');
 
 //do okna dodaj event który wykryje zmianę wielkości okna i zaloguje szerokość okna
 

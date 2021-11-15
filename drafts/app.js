@@ -169,3 +169,5 @@ all.forEach(el => el.addEventListener('click', event => {
 //     this.style.fontSize = '40px';
 //     event.stopImmediatePropagation();
 // }))
+
+document.write('dupa');
