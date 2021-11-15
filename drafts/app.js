@@ -91,30 +91,81 @@ const lis = document.querySelectorAll('li');
 const ahrefs = document.querySelectorAll('a')
 ahrefs.forEach(el => el.addEventListener('click', event => event.preventDefault()));
 
-for (let i = 0; i < ahrefs.length; i++) {
-    ahrefs[i].addEventListener('click', function (el) {
-        console.log(`Target: ${el.target}`);
-        console.log(`Current target: ${el.currentTarget}`);
-        console.log(`This: ${this}`);
-        el.currentTarget.classList.toggle('red-background');
-        el.currentTarget.event.stopImmediatePropagation();
+// for (let i = 0; i < ahrefs.length; i++) {
+//     ahrefs[i].addEventListener('click', function (el) {
+//         console.log(`Target: ${el.target}`);
+//         console.log(`Current target: ${el.currentTarget}`);
+//         console.log(`This: ${this}`);
+//         el.currentTarget.classList.toggle('red-background');
+//         el.currentTarget.event.stopImmediatePropagation();
+//
+//         // console.log(`This.el: ${this}`);
+//     })
+//
+// }
+//
+// const hrefContainers = document.querySelectorAll('.href-container');
+//
+//
+//
+// hrefContainers.forEach( el => el.addEventListener('click', function (el) {
+//     console.log(`Target: ${el.target}`);
+//     console.log(`Current target: ${el.currentTarget}`);
+//     console.log(`This: ${this}`);
+//     console.log(el.currentTarget.innerText);
+//     el.currentTarget.classList.toggle('white-background');
+//     el.currentTarget.event.stopImmediatePropagation();
+//
+//
+//     // el.style.backgroundColor = 'black';
+//     // console.log(`This.el: ${this}`);
+// }))
 
-        // console.log(`This.el: ${this}`);
-    })
+const all = document.querySelectorAll('div');
 
-}
+// all.forEach(el => el.addEventListener('click', function(event){
+//     // console.log(`Target: ${target}`);
+//     console.log(el.innerText);
+//     console.log(this.innerText);
+//     this.classList.toggle('red');
+//     // this.event.stopImmediatePropagation();
+//     // console.log(`Target el: ${el.target.innerText}`);
+//     // console.log(`Current.Target el: ${el.currentTarget.innerText}`);
+//     // console.log(`Event: ${event}`);
+//     // console.log(`This event: ${this.event.type} `);
+// }))
 
-const hrefContainers = document.querySelectorAll('.href-container');
+// for(let i = 0; i < all.length; i++) {
+//     all[i].addEventListener("click", function(event) {
+//         console.log(`Super 2 EVENT`);
+//         // this.classList.toggle('red-background');
+//         // this.style.fontSize = '40px';
+//         event.stopImmediatePropagation();
+//
+//     });
+// }
+//
+// for(let i = 0; i < all.length; i++) {
+//     all[i].addEventListener("click", function(event) {
+//         console.log(`Super ${this.innerText}`);
+//         this.classList.toggle('red-background');
+//         // this.style.fontSize = '40px';
+//         event.stopImmediatePropagation();
+//     });
+// }
 
-hrefContainers.forEach( el => el.addEventListener('click', function (el) {
-    console.log(`Target: ${el.target}`);
-    console.log(`Current target: ${el.currentTarget}`);
-    console.log(`This: ${this}`);
-    console.log(el.currentTarget.innerText);
-    el.currentTarget.classList.toggle('white-background');
-    el.currentTarget.event.stopImmediatePropagation();
-
-
-    // el.style.backgroundColor = 'black';
-    // console.log(`This.el: ${this}`);
+all.forEach(el => el.addEventListener('click', event => {
+    console.log(`Super 2 EVENT`);
+    this.classList.toggle('red-background');
+    event.stopImmediatePropagation();
 }))
+
+
+
+
+// all.forEach(el => el.addEventListener('click', function(event) {
+//     console.log(`Super ${this.innerText}`);
+//     // this.classList.toggle('red');
+//     this.style.fontSize = '40px';
+//     event.stopImmediatePropagation();
+// }))
