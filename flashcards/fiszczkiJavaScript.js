@@ -1,4 +1,4 @@
-
+//DOTĄD SKOPIOWANO FISZKI
 
 
 //wyświetl proste okno z pytaniem Jak masz na imię?, a odpowiedz przechowaj w zmiennej name
@@ -72,4 +72,3 @@ array.forEach( el => el.addEventListener('click', function(event) {
     event.stopPropagation();
 }))
 
-//DOTĄD SKOPIOWANO FISZKI
