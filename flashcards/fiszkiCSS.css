@@ -1,9 +1,14 @@
+/* Czy z-index działa na statycznych elementach? */
+
+NIE
+
 /* Kontrola pozycjonowania elementów elementów wszystkie wartości*/
 div {
   position: static;
   position: relative;
   position: absolute;
   position: fixed;
+  position: sticky;
 
 }
 
