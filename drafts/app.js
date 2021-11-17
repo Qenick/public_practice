@@ -170,4 +170,16 @@ all.forEach(el => el.addEventListener('click', event => {
 //     event.stopImmediatePropagation();
 // }))
 
-document.write('dupa');
+// document.write('dupa');
+
+const levelZero = document.querySelector('.zero-level');
+
+const levelZero2 = levelZero.cloneNode(false);
+
+const body = document.querySelector('body');
+
+body.appendChild(levelZero2);
+
+// document.querySelectorAll('li').className = 'extra-bold';
+
+document.querySelectorAll('li').forEach( el => el.className = 'extra-bold');
