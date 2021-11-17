@@ -1,12 +1,45 @@
-Czy margin bottom i top zapadają się?
+/* Kontrola pozycjonowania elementów elementów wszystkie wartości*/
+div {
+  position: static;
+  position: relative;
+  position: absolute;
+  position: fixed;
 
-TAK
+}
+
+
+
+/* Ustawianie na divie widoczności */
+div {
+  visibility: hidden;
+  visibility: collapse;
+  visibility: visible;
+}
+
+
+
+/* Jak ustawiamy właściwość kontrolującą co się dzieje gdy content przekracza szerokość albo wysokość elementu */
+div {
+  overflow: hidden;
+  overflow: scroll;
+  overflow: visible;
+}
+
+
+/* Czy margin bottom i top zapadają się? */
+
+TAK wyższa wysokość tylko działa
 
 
 
 
 
-/*DOTĄD ZROBIONO FISZKI*/
+/*
+DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
+DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
+DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
+DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
+*/
 
 
 
