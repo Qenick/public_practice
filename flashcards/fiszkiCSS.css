@@ -1,3 +1,12 @@
+/*
+DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
+DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
+DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
+DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
+*/
+
+
+
 /* Czy z-index działa na statycznych elementach? */
 
 NIE
@@ -16,35 +25,24 @@ div {
 
 /* Ustawianie na divie widoczności */
 div {
+  visibility: visible;
   visibility: hidden;
   visibility: collapse;
-  visibility: visible;
 }
 
 
 
 /* Jak ustawiamy właściwość kontrolującą co się dzieje gdy content przekracza szerokość albo wysokość elementu */
 div {
+  overflow: visible;
   overflow: hidden;
   overflow: scroll;
-  overflow: visible;
 }
 
 
 /* Czy margin bottom i top zapadają się? */
 
 TAK wyższa wysokość tylko działa
-
-
-
-
-
-/*
-DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
-DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
-DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
-DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
-*/
 
 
 
