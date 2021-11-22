@@ -1,3 +1,17 @@
+jak użyć ... spread operator;
+
+
+
+
+
+//w jaki sposób sprawdzić czy w elemencie zapisanym w myDiv w jego pseudotablicy DOMTokenList z listą klas jest klasa
+// red;
+
+myDiv.classList.contains('red');
+
+//Dlaczego nie można metody tablicowej zastosować do classList
+
+classList zwraca pseudotablice DOMTokenList;
 
 
 
