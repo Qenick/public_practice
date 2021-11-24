@@ -14,8 +14,8 @@ myDiv.classList.contains('red');
 
 
 //Dlaczego nie można metody tablicowej zastosować do classList
-
 classList zwraca pseudotablice DOMTokenList;
+
 
 
 jak użyć ... spread operator;

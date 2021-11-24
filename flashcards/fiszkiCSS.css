@@ -1,3 +1,16 @@
+/*Napisz media query z blokadą starych przeglądarek dla minimalnej szerokości 768px, albo w przypadku korzystania z ekranu obróconego do orientacji poziomej dla szerokości 700px*/
+@media only screen and (min-width: 768px),
+  only screen and (min-width: 700px) and (orientation: landscape) {}
+
+
+/*Media querry dla ekranu trzymanego poziomo z blokadą dla starych przeglądraek*/
+@media only screen and (orientation: portrait){}
+
+/*Media querry dla ekranu trzymanego poziomo z blokadą dla starych przeglądraek*/
+
+@media only screen and (orientation: landscape){}
+
+
 /*
 DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI
 DOTĄD ZROBIONO FISZKI DOTĄD ZROBIONO FISZKI

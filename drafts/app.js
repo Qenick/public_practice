@@ -156,7 +156,7 @@ const all = document.querySelectorAll('div');
 
 all.forEach(el => el.addEventListener('click', event => {
     console.log(`Super 2 EVENT`);
-    this.classList.toggle('red-background');
+    event.target.classList.toggle('red-background');
     event.stopImmediatePropagation();
 }))
 
