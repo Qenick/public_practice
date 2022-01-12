@@ -1,4 +1,5 @@
-
+//znak ucieczki w stringu w js string To jest "cytat".
+console.log("To jest \"cytat\".")
 
 
 //sprawdź czy zmienna x niejest numerem
